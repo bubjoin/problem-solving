@@ -44,3 +44,8 @@ To make a <strong>multi-dimensional list</strong>,
 \>\>\> a  
 [[1, 2, 1], [1, 1, 1], [1, 1, 1]]  
   
+recursion limit:  
+<strong>import sys</strong>  
+<strong>print(sys.getrecursionlimit()) # 1000</strong>  
+<strong>print(sys.setrecursionlimit(1_000_000))</strong>  
+  
